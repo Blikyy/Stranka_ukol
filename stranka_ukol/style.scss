@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import '_reset.scss';
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(12, 12, 12);
+    color: white;
+
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1eeee;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    border: 3px none #3b3b3b;
+  }
+}
+.nadpis{
+    text-align: center;
+    margin-top: 5%;
+    background: #C90ECF;
+    background: linear-gradient(to bottom, #C90ECF 0%, #106EE8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+}
+.dock{
+    padding-top: 150px;
+    margin-left: 20%;
+    position: absolute;
+    
+}
+.specs_box{
+    margin-top: 13%;
+    margin-right: 23%;
+}
+.specs{
+    
+    padding: 10px;
+    font-size: 30px;
+    float: right;
+    list-style: none;
+    line-height: 200%;
+    color: #bebebe;
+}
+.description{
+    text-align: center;
+    margin-top: 55%;
+    font-size: 60px;
+    background: #FF0000;
+    background: linear-gradient(to left, #FF0000 0%, #4117E8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.usbc_des{
+    margin-left: 10%;
+    margin-top: 100px;
+    color: #bebebe;
+}
+.usbc_des1{
+    margin-left: 10%;
+    margin-top: 50px;
+    color: #bebebe;
+}
+.video_des{
+    margin-top: 95px;
+    margin-left: 10%;
+    color: #bebebe;
+}
+.video_des1{
+    margin-top: 17px;
+    margin-left: 10%;
+    color: #bebebe;
+}
+.dock2{
+    float: right;
+    margin-top: 90px;
+    margin-right: 5%;
+}
+footer{
+    height: 200px;
+}
+@media screen and (max-width: 1200px){
+    .dock{
+        position:relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+
+    }
+    .specs_box{
+        margin-right: 0;
+        margin-left: 5%;
+        margin-top: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    .description{
+        margin-top: 150px;
+        
+    }
+    .specs{ 
+        line-height: 200%;
+    }
+    .buy{
+        margin-top: 50px;
+        padding-top: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .usbc_des{
+        position: relative;
+    }
+    .usbc_des1{
+        position: relative;
+        margin-top: 50px;
+    }
+    .video_des1{
+        text-align: center;
+        margin-right: 10%;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .dock2{
+        float: none;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+}
